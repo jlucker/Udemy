@@ -1,0 +1,7 @@
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Indexers\Indexers\bin\Debug\Indexers.exe.config
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Indexers\Indexers\bin\Debug\Indexers.exe
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Indexers\Indexers\bin\Debug\Indexers.pdb
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Indexers\Indexers\obj\Debug\Indexers.csprojResolveAssemblyReference.cache
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Indexers\Indexers\obj\Debug\Indexers.csproj.CoreCompileInputs.cache
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Indexers\Indexers\obj\Debug\Indexers.exe
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Indexers\Indexers\obj\Debug\Indexers.pdb

@@ -1,0 +1,7 @@
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Properties\Properties\bin\Debug\Properties.exe.config
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Properties\Properties\bin\Debug\Properties.exe
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Properties\Properties\bin\Debug\Properties.pdb
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Properties\Properties\obj\Debug\Properties.csprojResolveAssemblyReference.cache
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Properties\Properties\obj\Debug\Properties.csproj.CoreCompileInputs.cache
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Properties\Properties\obj\Debug\Properties.exe
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Properties\Properties\obj\Debug\Properties.pdb

@@ -1,0 +1,7 @@
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Methods\Methods\bin\Debug\Methods.exe.config
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Methods\Methods\bin\Debug\Methods.exe
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Methods\Methods\bin\Debug\Methods.pdb
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Methods\Methods\obj\Debug\Methods.csprojResolveAssemblyReference.cache
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Methods\Methods\obj\Debug\Methods.csproj.CoreCompileInputs.cache
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Methods\Methods\obj\Debug\Methods.exe
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Methods\Methods\obj\Debug\Methods.pdb

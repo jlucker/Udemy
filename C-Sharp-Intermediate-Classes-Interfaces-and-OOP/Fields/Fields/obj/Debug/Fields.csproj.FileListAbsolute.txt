@@ -1,0 +1,6 @@
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Fields\Fields\bin\Debug\Fields.exe.config
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Fields\Fields\bin\Debug\Fields.exe
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Fields\Fields\bin\Debug\Fields.pdb
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Fields\Fields\obj\Debug\Fields.csproj.CoreCompileInputs.cache
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Fields\Fields\obj\Debug\Fields.exe
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Fields\Fields\obj\Debug\Fields.pdb
