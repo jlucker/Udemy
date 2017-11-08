@@ -1,0 +1,11 @@
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Constructors\Constructors\bin\Debug\netcoreapp2.0\Constructors.deps.json
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Constructors\Constructors\bin\Debug\netcoreapp2.0\Constructors.runtimeconfig.json
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Constructors\Constructors\bin\Debug\netcoreapp2.0\Constructors.runtimeconfig.dev.json
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Constructors\Constructors\bin\Debug\netcoreapp2.0\Constructors.dll
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Constructors\Constructors\bin\Debug\netcoreapp2.0\Constructors.pdb
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Constructors\Constructors\obj\Debug\netcoreapp2.0\Constructors.csprojResolveAssemblyReference.cache
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Constructors\Constructors\obj\Debug\netcoreapp2.0\Constructors.csproj.CoreCompileInputs.cache
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Constructors\Constructors\obj\Debug\netcoreapp2.0\Constructors.AssemblyInfoInputs.cache
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Constructors\Constructors\obj\Debug\netcoreapp2.0\Constructors.AssemblyInfo.cs
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Constructors\Constructors\obj\Debug\netcoreapp2.0\Constructors.dll
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Constructors\Constructors\obj\Debug\netcoreapp2.0\Constructors.pdb
