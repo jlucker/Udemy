@@ -1,0 +1,7 @@
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Composition\Composition\bin\Debug\Composition.exe.config
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Composition\Composition\bin\Debug\Composition.exe
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Composition\Composition\bin\Debug\Composition.pdb
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Composition\Composition\obj\Debug\Composition.csprojResolveAssemblyReference.cache
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Composition\Composition\obj\Debug\Composition.csproj.CoreCompileInputs.cache
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Composition\Composition\obj\Debug\Composition.exe
+C:\Users\jlucker\Documents\Visual Studio 2017\Projects\Composition\Composition\obj\Debug\Composition.pdb
