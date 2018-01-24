@@ -31,20 +31,22 @@
                     username: '',
                     email: ''
                 },
-                users: []
+                users: [],
+                resource:{}
             };
         },
-        methods:{
+        methods: {
             submit() {
-                this.$http.post('https://vuejs-http-demo-3c32d.firebaseio.com/data.json', this.user)
+/*                this.$http.post('data.json', this.user)
                     .then(response => {
                         console.log(response);
                     }, error => {
                         console.log(error);
-                    });
+                    });*/
+                this.resource.save({}, this.user);
             },
             fetchData() {
-                this.$http.get('https://vuejs-http-demo-3c32d.firebaseio.com/data.json')
+                this.$http.get('data.json')
                     .then(response => {
                     return response.json();
                     })
@@ -56,6 +58,9 @@
                         this.users = resultArray;
                     });
             }
+        },
+        created() {
+            this.resource = this.$resource('data.json');
         }
     }
 </script>
