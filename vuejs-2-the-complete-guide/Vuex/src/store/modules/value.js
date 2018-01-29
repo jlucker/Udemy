@@ -1,1 +1,1 @@
-// could hold value vuex parts
+// Could hold value vuex parts
