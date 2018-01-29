@@ -1,21 +1,14 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import counter from './modules/counter';
 
-import actions from './actions';
-import getters from './getters';
-import mutations from './mutations';
+import stocks from './modules/stocks';
+import portfolio from './modules/portfolio';
 
 Vue.use(Vuex);
 
-export const store = new Vuex.Store({
-    state: {
-        value: 0
-    },
-    getters,
-    mutations,
-    actions,
+export default new Vuex.Store({
     modules: {
-        counter
+        stocks,
+        portfolio
     }
 });
