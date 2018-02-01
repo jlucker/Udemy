@@ -106,6 +106,14 @@
         }
         console.log(formData)
           this.$store.dispatch('signup', formData)
+          this.email = '';
+          this.age = '';
+          this.password = '';
+          this.confirmPassword = '';
+          this.country = '';
+          this.hobbyInputs = null;
+          this.terms = false;
+
 
       }
     }

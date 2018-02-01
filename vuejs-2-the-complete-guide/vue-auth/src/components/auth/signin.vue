@@ -40,6 +40,8 @@
         }
         console.log(formData);
         this.$store.dispatch('login', {email: formData.email, password: formData.password})
+          this.email = '';
+          this.password = '';
       }
     }
   }
