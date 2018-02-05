@@ -77,7 +77,7 @@
           <label for="terms">Accept Terms of Use</label>
         </div>
         <div class="submit">
-          <button type="submit" :disabled="$v.$invalid">Submit</button>
+          <button type="submit">Submit</button>
         </div>
       </form>
     </div>
@@ -87,7 +87,6 @@
 <script>
 
   import { required, email, numeric, minValue, minLength, sameAs, requiredUnless } from 'vuelidate/lib/validators'
-  import axios from 'axios'
 
   export default {
     data () {
@@ -104,16 +103,7 @@
     validations: {
         email: {
             required,
-            email,
-            unique: val => {
-                if(val === '')return true
-
-                return axios.get('/users.json?orderBy="email"&equalTo="' + val + '"')
-                    .then(res => {
-                        console.log(res)
-                        return Object.keys(res.data).length === 0
-                    })
-            }
+            email
         },
         age: {
             required,
