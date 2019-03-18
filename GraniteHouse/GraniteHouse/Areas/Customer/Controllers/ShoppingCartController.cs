@@ -28,9 +28,67 @@ namespace GraniteHouse.Areas.Customer.Controllers
             };
         }
 
-        public IActionResult Index()
+        // GET : Index Shopping Cart
+        public async Task<IActionResult> Index()
         {
-            return View();
+            List<int> listShoppingCart = HttpContext.Session.Get<List<int>>("SessionShoppingCart");
+            if(listShoppingCart.Count  > 0)
+            {
+                foreach(int cartItem in listShoppingCart)
+                {
+                    Products prod = _db.Products.Include(p=>p.SpecialTags).Include(p => p.ProductTypes).Where(p => p.Id == cartItem).FirstOrDefault();
+                    ShoppingCartVM.Products.Add(prod);
+                }
+            }
+            return View(ShoppingCartVM);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [ActionName("Index")]
+        public IActionResult IndexPost()
+        {
+            List<int> listCartItems = HttpContext.Session.Get<List<int>>("SessionShoppingCart");
+            ShoppingCartVM.Appointments.AppointmentDate = ShoppingCartVM.Appointments.AppointmentDate
+                .AddHours(ShoppingCartVM.Appointments.Time.Hour)
+                .AddMinutes(ShoppingCartVM.Appointments.Time.Minute);
+
+            Appointments appointments = ShoppingCartVM.Appointments;
+            _db.Appointments.Add(appointments);
+            _db.SaveChanges();
+
+            int appointmentId = appointments.Id;
+
+            foreach(int productId in listCartItems)
+            {
+                ProductsSelectedForAppointment productsSelectedForAppointment = new ProductsSelectedForAppointment()
+                {
+                    AppointmentId = appointmentId,
+                    ProductId = productId
+                };
+                _db.ProductsSelectedForAppointment.Add(productsSelectedForAppointment);
+            }
+            _db.SaveChanges();
+            listCartItems = new List<int>();
+            HttpContext.Session.Set("SessionShoppingCart", listCartItems);
+
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Remove(int id)
+        {
+            List<int> listCartItems = HttpContext.Session.Get<List<int>>("SessionShoppingCart");
+
+            if(listCartItems.Count > 0)
+            {
+                if(listCartItems.Contains(id))
+                {
+                    listCartItems.Remove(id);
+                }
+            }
+
+            HttpContext.Session.Set("SessionShoppingCart", listCartItems);
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }
