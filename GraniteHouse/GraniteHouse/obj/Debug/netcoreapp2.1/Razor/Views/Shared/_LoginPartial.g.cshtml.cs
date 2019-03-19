@@ -81,12 +81,12 @@ using Microsoft.AspNetCore.Identity;
             WriteLiteral("    ");
             EndContext();
             BeginContext(185, 669, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d6a85d4044b34d5495017bd139d6bec4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "007823b5fd044bb5a59253b8fce0912e", async() => {
                 BeginContext(359, 130, true);
                 WriteLiteral("\r\n        <ul class=\"nav navbar-nav navbar-right\">\r\n            <li class=\"nav-item\" style=\"padding-right:20px\">\r\n                ");
                 EndContext();
                 BeginContext(489, 129, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9733b61c465843bbb1c523371fd785ec", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "370f8f9bfa00405dad419e065eb3286e", async() => {
                     BeginContext(577, 6, true);
                     WriteLiteral("Hello ");
                     EndContext();
@@ -170,7 +170,7 @@ else
             WriteLiteral("    <ul class=\"nav navbar-nav navbar-collapse\">\r\n        <li class=\"nav-item\">");
             EndContext();
             BeginContext(946, 75, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c6332adac05941b583feb7b5c00c25c8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "540d442e69014b429cb298cb7ab3a344", async() => {
                 BeginContext(1012, 5, true);
                 WriteLiteral("Login");
                 EndContext();
