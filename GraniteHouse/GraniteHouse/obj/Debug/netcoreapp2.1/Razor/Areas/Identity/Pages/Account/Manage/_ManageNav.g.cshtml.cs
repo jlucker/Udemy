@@ -78,7 +78,7 @@ using GraniteHouse.Areas.Identity.Pages.Account.Manage;
             WriteLiteral("<ul class=\"list-group\">\r\n    <li class=\"list-group-item\">");
             EndContext();
             BeginContext(213, 33, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "82478296a2404d91b8b30fe45966d50e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b17e5e2eb3fd4065abcaea25c91cf20b", async() => {
                 BeginContext(235, 7, true);
                 WriteLiteral("Profile");
                 EndContext();
@@ -100,7 +100,7 @@ using GraniteHouse.Areas.Identity.Pages.Account.Manage;
             WriteLiteral("</li>\r\n    <li class=\"list-group-item\">");
             EndContext();
             BeginContext(285, 64, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d0b746358cd14e9fa76b1d3a06cfe736", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d0c6ac2af0b64d9cb80c8070c9d5d94c", async() => {
                 BeginContext(337, 8, true);
                 WriteLiteral("Password");
                 EndContext();
@@ -132,7 +132,7 @@ using GraniteHouse.Areas.Identity.Pages.Account.Manage;
             WriteLiteral("        <li class=\"list-group-item\">");
             EndContext();
             BeginContext(428, 70, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3e7725bec35a4705a96d0b6b50f7e7af", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "14c65401226b427cac5bd4d630983ab5", async() => {
                 BeginContext(479, 15, true);
                 WriteLiteral("External logins");
                 EndContext();
@@ -163,7 +163,7 @@ using GraniteHouse.Areas.Identity.Pages.Account.Manage;
             WriteLiteral("    <li class=\"list-group-item\">");
             EndContext();
             BeginContext(544, 69, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "73c5155987a04ef593555bbe372946d3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1bb5e3e85fca41fd98c11072cce42328", async() => {
                 BeginContext(584, 25, true);
                 WriteLiteral("Two-factor authentication");
                 EndContext();
@@ -185,7 +185,7 @@ using GraniteHouse.Areas.Identity.Pages.Account.Manage;
             WriteLiteral("</li>\r\n    <li class=\"list-group-item\">");
             EndContext();
             BeginContext(652, 46, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "49930a2ff3484580822db365062dd3c0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dcb97d9673c54f479aba878236a508c4", async() => {
                 BeginContext(681, 13, true);
                 WriteLiteral("Personal data");
                 EndContext();
