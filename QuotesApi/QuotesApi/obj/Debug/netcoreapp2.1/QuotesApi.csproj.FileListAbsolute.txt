@@ -1,0 +1,14 @@
+C:\Users\risin\Desktop\QuotesApi\QuotesApi\QuotesApi\bin\Debug\netcoreapp2.1\QuotesApi.deps.json
+C:\Users\risin\Desktop\QuotesApi\QuotesApi\QuotesApi\bin\Debug\netcoreapp2.1\QuotesApi.runtimeconfig.json
+C:\Users\risin\Desktop\QuotesApi\QuotesApi\QuotesApi\bin\Debug\netcoreapp2.1\QuotesApi.runtimeconfig.dev.json
+C:\Users\risin\Desktop\QuotesApi\QuotesApi\QuotesApi\bin\Debug\netcoreapp2.1\QuotesApi.dll
+C:\Users\risin\Desktop\QuotesApi\QuotesApi\QuotesApi\bin\Debug\netcoreapp2.1\QuotesApi.pdb
+C:\Users\risin\Desktop\QuotesApi\QuotesApi\QuotesApi\obj\Debug\netcoreapp2.1\QuotesApi.csprojAssemblyReference.cache
+C:\Users\risin\Desktop\QuotesApi\QuotesApi\QuotesApi\obj\Debug\netcoreapp2.1\QuotesApi.csproj.CoreCompileInputs.cache
+C:\Users\risin\Desktop\QuotesApi\QuotesApi\QuotesApi\obj\Debug\netcoreapp2.1\QuotesApi.RazorAssemblyInfo.cache
+C:\Users\risin\Desktop\QuotesApi\QuotesApi\QuotesApi\obj\Debug\netcoreapp2.1\QuotesApi.RazorAssemblyInfo.cs
+C:\Users\risin\Desktop\QuotesApi\QuotesApi\QuotesApi\obj\Debug\netcoreapp2.1\QuotesApi.AssemblyInfoInputs.cache
+C:\Users\risin\Desktop\QuotesApi\QuotesApi\QuotesApi\obj\Debug\netcoreapp2.1\QuotesApi.AssemblyInfo.cs
+C:\Users\risin\Desktop\QuotesApi\QuotesApi\QuotesApi\obj\Debug\netcoreapp2.1\QuotesApi.RazorTargetAssemblyInfo.cache
+C:\Users\risin\Desktop\QuotesApi\QuotesApi\QuotesApi\obj\Debug\netcoreapp2.1\QuotesApi.dll
+C:\Users\risin\Desktop\QuotesApi\QuotesApi\QuotesApi\obj\Debug\netcoreapp2.1\QuotesApi.pdb
