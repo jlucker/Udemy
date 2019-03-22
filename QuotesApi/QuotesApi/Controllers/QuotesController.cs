@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using QuotesApi.Data;
 using QuotesApi.Models;
 
 namespace QuotesApi.Controllers
@@ -12,34 +13,81 @@ namespace QuotesApi.Controllers
     [ApiController]
     public class QuotesController : ControllerBase
     {
-        static List<Quote> _quotes = new List<Quote>()
-        {
-            new Quote(){Id = 0, Author = "Emily Dickenson", Description = "The brain is wider than the sky.", Title = "Inspirational"},
-            new Quote(){Id = 1, Author ="Richard Bach", Description = "True love stories never have endings", Title = "Love Stories"}
-        };
+        private QuotesDbContext _quotesDbContext;
 
+        public QuotesController(QuotesDbContext quotesDbContext)
+        {
+            _quotesDbContext = quotesDbContext;
+        }
+
+        // GET: api/Quotes
         [HttpGet]
-        public IEnumerable<Quote> Get()
+        public IActionResult Get()
         {
-            return _quotes;
+            // return _quotesDbContext.Quotes;
+            return Ok(_quotesDbContext.Quotes);
+            // return StatusCode(StatusCodes.Status200OK);
         }
 
+        // GET: api/Quotes/5
+        [HttpGet("{id}", Name = "Get")]
+        public IActionResult Get(int id)
+        {
+            var quote = _quotesDbContext.Quotes.Find(id);
+            if(quote == null)
+            {
+                return NotFound("No record found...");
+            }
+            else
+            {
+                return Ok(quote);
+            }
+        }
+
+        // POST: api/Quotes
         [HttpPost]
-        public void Post([FromBody]Quote quote)
+        public IActionResult Post([FromBody] Quote quote)
         {
-            _quotes.Add(quote);
+            _quotesDbContext.Quotes.Add(quote);
+            _quotesDbContext.SaveChanges();
+            return StatusCode(StatusCodes.Status201Created); 
         }
 
+        // PUT: api/Quotes/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Quote quote)
+        public IActionResult Put(int id, [FromBody] Quote quote)
         {
-            _quotes[id] = quote;
+            var entity = _quotesDbContext.Quotes.Find(id);
+            if(entity == null)
+            {
+                return NotFound("No record found against this ID");
+            }
+            else
+            {
+                entity.Title = quote.Title;
+                entity.Author = quote.Author;
+                entity.Description = quote.Description;
+                _quotesDbContext.SaveChanges();
+                return Ok("Record Updated Sccuessfully!");
+            }
         }
 
+        // DELETE: api/Quotes/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
-            _quotes.RemoveAt(id);
+            var quote = _quotesDbContext.Quotes.Find(id);
+
+            if (quote == null)
+            {
+                return NotFound("No record found against this id...");
+            }
+            else
+            {
+                _quotesDbContext.Quotes.Remove(quote);
+                _quotesDbContext.SaveChanges();
+                return Ok("Quote deleted...");
+            }
         }
     }
 }
