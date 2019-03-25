@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using QuotesApi.Data;
@@ -22,6 +23,7 @@ namespace QuotesApi.Controllers
 
         // GET: api/Quotes
         [HttpGet]
+        [ResponseCache(Duration = 60, Location = ResponseCacheLocation.Any)]
         public IActionResult Get(string sort)
         {
             IQueryable<Quote> quotes;
@@ -55,7 +57,7 @@ namespace QuotesApi.Controllers
         [Route("[action]")]
         public IActionResult SearchQuote(string type)
         {
-           var quotes = _quotesDbContext.Quotes.Where(q => q.Type.StartsWith(type));
+            var quotes = _quotesDbContext.Quotes.Where(q => q.Type.StartsWith(type));
             return Ok(quotes);
         }
 
@@ -64,7 +66,7 @@ namespace QuotesApi.Controllers
         public IActionResult Get(int id)
         {
             var quote = _quotesDbContext.Quotes.Find(id);
-            if(quote == null)
+            if (quote == null)
             {
                 return NotFound("No record found...");
             }
@@ -80,7 +82,7 @@ namespace QuotesApi.Controllers
         {
             _quotesDbContext.Quotes.Add(quote);
             _quotesDbContext.SaveChanges();
-            return StatusCode(StatusCodes.Status201Created); 
+            return StatusCode(StatusCodes.Status201Created);
         }
 
         // PUT: api/Quotes/5
@@ -88,7 +90,7 @@ namespace QuotesApi.Controllers
         public IActionResult Put(int id, [FromBody] Quote quote)
         {
             var entity = _quotesDbContext.Quotes.Find(id);
-            if(entity == null)
+            if (entity == null)
             {
                 return NotFound("No record found against this ID");
             }
